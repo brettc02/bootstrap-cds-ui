@@ -502,16 +502,21 @@
   width: 75%; 
   margin-bottom: 30px;
 }
+
 .carousel-content {
   margin: 20px 0px 0px 10px; 
 }
 .carousel-inner {
   border-radius: 20px; 
 }
+.carousel-item {
+  width: 1000px;
+  height: 400px;
+}
 
 /* Customize carousel caption style */
 .carousel-caption {
-  background-color: var(--primary);
+  background-color: var(--text);
   padding: 20px;
   border-radius: 10px;
 }
